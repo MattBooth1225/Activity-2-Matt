@@ -1,0 +1,194 @@
+
+/*************************************
+This css file includes several different formatting examples
+GENERAL
+**************************************/
+html {
+    background-color: cornsilk;
+}
+
+div {
+    border: 5px solid;
+    border-color: black;
+    background-color: aliceblue;
+}
+
+a {
+ text-decoration: none;
+  color: darkcyan;
+ }
+
+img {
+max-width: 100%;
+
+}
+
+ body {
+   font-family: 'Times New Roman', sans-serif;
+    font-size: 1.25em;
+     background-color: cornsilk;
+ }
+
+
+ #wrapper {
+   max-width: 940px;
+   margin: 0 auto;
+   padding: 0 5%;
+
+ }
+
+ h3 {
+     margin: 0 0 1em 0;
+ }
+
+
+/*************************************
+HEADING
+**************************************/
+
+header {
+  float: left;
+  margin: 0 0 20px 0;
+  padding: 2px 0 0 0;
+  width: 100%;
+
+}
+
+.center {
+ text-align: center
+}
+
+
+#logo {
+   text-align: center;
+   margin: 0;
+
+ }
+
+ h1  {
+ font-family: 'Times New Roman', sans-serif;
+ margin: 10px 0;
+ font-size: 2.5em;
+ font-weight: normal;
+ line-height: 0.5;
+ text-align: center;
+
+   color: navy;
+
+ }
+
+ h2  {
+ font-size: 1.5em;
+ font-weight: normal;
+ margin: -5px 0 0;
+   color: black;
+ }
+
+
+h3  {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 15px 0 0;
+}
+
+
+/*************************************
+NAVIGATION
+**************************************/
+ nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+  }
+
+  nav ul  {
+    list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+  display: inline-block;
+
+}
+
+/*************************************
+FOOTER
+**************************************/
+ .footer {
+ font-size: 0.75em;
+ text-align: center;
+ clear: both;
+ padding-top: 50px;
+ color: #ccc;
+ }
+
+/*************************************
+PAGE:
+**************************************/
+.mydiv {background: lightblue; width:250px; height: 250px;}
+
+.myimage {
+    float:left;
+    width:150px;
+    height:175px;
+    margin:20px;
+    border-radius: 20px;
+    border: 5px solid;
+    border-color: black;
+}
+
+.dog-photo {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto 30px;
+    border-radius: 5px;
+    border: 5px solid;
+    border-color: black;
+}
+
+
+
+ /*************************************
+PAGE: ABOUT
+**************************************/
+.profile-photo {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 30px;
+    border-radius: 5px;
+    border: 5px solid;
+    border-color: black;
+}
+
+/*************************************
+COLORS
+**************************************/
+
+
+ /* green header*/
+  header {
+   background: #6ab47b;
+   border-color: #599a68;
+ }
+
+
+
+/* nav background on mobile devices*/
+nav {
+   background: cyan;
+}
+
+nav a, nav a:visited {
+	color: lightgray;
+}
+
+/* selected nav link color*/
+nav a.selected, nav a:hover {
+  color: navy;
+}
+/* site body*/
+/*body {
+    background-color: #fff;
+    color: black;
+}
